@@ -1,0 +1,198 @@
+/* common start */
+body{
+    /* font-family: ; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#0f2656;
+}
+/* common end */
+/* header start */
+header{
+    border-bottom: 1px solid darkgrey;
+
+}
+.container {
+    width: 90%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 9%;
+
+}
+.logo img{
+    width: 100%;
+
+}
+
+.menu {
+    float: right;
+    width: 50%;
+}
+.menu ul{
+    float: right;
+    
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color:#008aff ;
+}
+/* header end  */
+
+/* banner start */
+.banner{
+    padding:50px 0;
+
+}
+.container2{
+    width:55%;
+    margin: 0 auto;
+    text-align: center;
+}
+.b-h1{
+    font-family: sans-serif;
+    font-size:50px ;
+    font-weight: 700;
+    color: #0f2656;
+    margin: 0;
+    padding: 0 50px;
+    
+
+}
+.b-h1 span{
+    color: #008aff;
+}
+.b-p{
+    line-height: 25px;
+    margin: 20px 0;
+
+}
+.b-img{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.b-img img{
+    width: 100%;
+
+}
+/* banner end  */
+/* succcess start  */
+.success {
+    padding: 50px 0;
+}
+
+.container3 {
+    width:60%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.s-left {
+    padding-left:10px;
+    padding-right: 0;
+    width:47%;
+    float: left;
+    text-align: right;
+}
+.s-left h2{
+    font-size: 45px;
+    color:#f15767 ;
+    margin: 0;
+   
+
+}
+.s-left p{
+   line-height: 25px;
+   margin:5px 0 0;
+
+}
+
+.s-right {
+    padding-left:0;
+    padding-right: 10px;
+    width: 47%;
+    float: right;
+}
+.s-right h1{
+    font-size:45px;
+    margin:0;
+
+}
+/* success end  */
+
+/* fature start  */
+
+.feature {
+    margin-bottom: 60px;
+    
+}
+
+.f-single {
+    width: 27%;
+    float: left;
+    padding: 50px 2.3%;
+    margin-right:2.5%;
+}
+.f-single:last-child{
+    margin-right: 0;
+}
+.f-img {
+
+}
+.f-img img{
+    width: 100%;
+
+}
+.f-single h2{
+    margin: 20px 0;
+    font-size: 25px;
+    
+}
+.f-single p{
+    margin: 0;
+    line-height: 25px;
+
+}
+.pink{
+    background-color:#fdebed ;
+}
+.green{
+    background-color:#ebf9f4 ;
+}
+.yellow{
+    background-color:#fff7e8 ;
+}
+footer{
+    background-color: #008aff;
+    padding: 30px 0;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+footer p a{
+    color: lightgrey;
+}
